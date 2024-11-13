@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+[type='text'],
+[type='password'],
+[type='email'],
+[type='number'],
+[type='radio'],
+select,
+textarea{
+  @apply bg-red-200/15 my-4 rounded-e-full rounded-s-full border-none block
+}
+}
